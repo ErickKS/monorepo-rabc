@@ -1,0 +1,13 @@
+{
+  "name": "@saas-rbac/prettier",
+  "version": "0.0.0",
+  "main": "index.mjs",
+  "private": true,
+  "dependencies": {
+    "@saas-rbac/prettier": "file:"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3",
+    "prettier-plugin-tailwindcss": "^0.6.8"
+  }
+}

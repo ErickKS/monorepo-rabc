@@ -1,0 +1,21 @@
+{
+  "name": "@saas-rbac/auth",
+  "version": "0.0.0.",
+  "private": true,
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "dependencies": {
+    "@casl/ability": "^6.7.1",
+    "@saas-rbac/auth": "file:",
+    "@saas-rbac/eslint-config": "*",
+    "@saas-rbac/prettier": "*",
+    "@saas-rbac/tsconfig": "*",
+    "zod": "^3.23.8"
+  },
+  "eslintConfig": {
+    "extends": [
+      "@saas-rbac/eslint-config/library"
+    ]
+  },
+  "prettier": "@saas-rbac/prettier"
+}

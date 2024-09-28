@@ -1,0 +1,4 @@
+{
+  "extends": "@saas-rbac/tsconfig/node.json",
+  "include": ["src/**/*"]
+}
