@@ -5,7 +5,8 @@
   "license": "MIT",
   "files": [
     "library.json",
-    "node.json"
+    "node.json",
+    "next.json"
   ],
   "dependencies": {
     "@saas-rbac/tsconfig": "file:",
